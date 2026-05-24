@@ -30,7 +30,7 @@ const metadata = {
       ]}
       actions={[
         {
-          text: 'Bitcoin Staking',
+          text: 'Hire me',
           href: '#',
         },
       ]}
@@ -43,7 +43,7 @@ const metadata = {
 
   <Hero
     id="hero"
-    title="Bitcoin Staking"
+    title="Sarah Johnson"
     tagline="Personal Web Demo"
     actions={[{ variant: 'primary', text: 'Hire me', href: getPermalink('/contact#form') }]}
   >
@@ -317,7 +317,7 @@ const metadata = {
   <!-- Testimonials Widget *********** -->
 
   <Testimonials
-    title="Bitcoin Ecosystem"
+    title="Client testimonials"
     subtitle="Discover what clients have to say about their experiences working with me."
     testimonials={[
       {
@@ -327,7 +327,6 @@ const metadata = {
         image: {
           src: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80',
           alt: 'Mark Thompson Image',
-          href: 'https://itik.xyz',
         },
       },
       {
