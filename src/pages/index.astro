@@ -12,12 +12,6 @@ import FAQs from '~/components/widgets/FAQs.astro';
 import Stats from '~/components/widgets/Stats.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
 
-const appStoreImg = '~/assets/images/app-store.png';
-const appStoreDownloadLink = 'https://bitcoin.org/en/';
-
-const googlePlayImg = '~/assets/images/google-play.png';
-const googlePlayDownloadLink = 'https://github.com/arthelokyo/astrowind';
-
 const metadata = {
   title: 'SKELO.xyz | Secure Staking With Your Trusted Staking Provider.',
   ignoreTitleTemplate: true,
@@ -29,16 +23,6 @@ const metadata = {
   <!-- Hero Widget ******************* -->
 
   <Hero
-
-   <div slot="actions" class="flex max-w-sm gap-6">
-      <Button variant="link" href={appStoreDownloadLink}>
-        <Image src={appStoreImg} alt="App Store Image" width={300} format="webp" />
-      </Button>
-
-      <Button variant="link" href={googlePlayDownloadLink}>
-        <Image src={googlePlayImg} alt="Google Play Image" width={300} format="webp" />
-      </Button>
-      </div>
     actions={[
       {
         variant: 'primary',
