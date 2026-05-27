@@ -20,9 +20,6 @@ const appStoreDownloadLink = 'https://github.com/arthelokyo/astrowind';
 const googlePlayImg = '~/assets/images/google-play.png';
 const googlePlayDownloadLink = 'https://github.com/arthelokyo/astrowind';
 
-const monadPlayImg = '~/assets/images/monad-play.png';
-const monadPlayDownloadLink = 'https://github.com/arthelokyo/astrowind';
-
 const metadata = {
   title: 'Mobile App Homepage',
 };
@@ -78,10 +75,6 @@ const metadata = {
 
       <Button variant="link" href={googlePlayDownloadLink}>
         <Image src={googlePlayImg} alt="Google Play Image" width={200} format="webp" />
-      </Button>
-
-       <Button variant="link" href={monadPlayDownloadLink}>
-        <Image src={monadPlayImg} alt="Monad Play Image" width={300} format="webp" />
       </Button>
     </div>
   </Hero2>
