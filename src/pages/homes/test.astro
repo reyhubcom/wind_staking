@@ -26,6 +26,9 @@ const binancePlayDownloadLink = 'https://github.com/arthelokyo/astrowind';
 const solanaPlayImg = '~/assets/images/solana-play.png';
 const solanaPlayDownloadLink = 'https://github.com/arthelokyo/astrowind';
 
+const monadPlayImg = '~/assets/images/monad-play.png';
+const monadPlayDownloadLink = 'https://github.com/arthelokyo/astrowind';
+
 
 const metadata = {
   title: 'Mobile App Homepage',
@@ -75,7 +78,7 @@ const metadata = {
       Download now and embark on a journey to elevate your projects like never before.
     </Fragment>
 
-    <div slot="actions" class="flex max-w-sm gap-8">
+    <div slot="actions" class="flex max-w-sm gap-6">
       <Button variant="link" href={appStoreDownloadLink}>
         <Image src={appStoreImg} alt="App Store Image" width={300} format="webp" />
       </Button>
@@ -88,6 +91,10 @@ const metadata = {
 
         <Button variant="link" href={solanaPlayDownloadLink}>
         <Image src={solanaPlayImg} alt="Solana Play Image" width={300} format="webp" />
+      </Button>
+
+      <Button variant="link" href={monadPlayDownloadLink}>
+        <Image src={monadPlayImg} alt="Monad Play Image" width={300} format="webp" />
       </Button>
     </div>
   </Hero2>
@@ -310,6 +317,9 @@ const metadata = {
 
         <Button variant="link" href={solanaPlayDownloadLink}>
         <Image src={solanaPlayImg} alt="Solana Play Image" width={300} format="webp" />
+      </Button>
+       <Button variant="link" href={monadPlayDownloadLink}>
+        <Image src={monadPlayImg} alt="Monad Play Image" width={300} format="webp" />
       </Button>
     </div>
   </CallToAction>
