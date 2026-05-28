@@ -11,7 +11,7 @@ export const headerData = {
         },
         {
           text: 'Stake [ ETH ]',
-          href: getPermalink('/homes/mobile-app'),
+          href: getPermalink('/ETH'),
         },
         {
           text: 'Stake [ SOL ]',
@@ -19,7 +19,7 @@ export const headerData = {
         },
         {
           text: 'Stake [ MON ]',
-          href: getPermalink('/homes/personal'),
+          href: getPermalink('/MON'),
         },
       ],
     },
