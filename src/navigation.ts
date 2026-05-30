@@ -115,7 +115,7 @@ export const headerData = {
       href: '#',
     },
   ],
-  actions: [{ text: 'Stake.NOW', href: '/starstaking', target: '' }],
+  actions: [{ text: 'Stake.NOW', href: '/startstaking', target: '' }],
   icon:' tabler: link',
 };
 
