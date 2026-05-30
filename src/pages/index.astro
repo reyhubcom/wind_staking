@@ -26,29 +26,14 @@ const metadata = {
     actions={[
       {
         variant: 'primary',
-        text: 'Stake.NOW',
+        text: 'Start Staking',
         href: '/startstaking',
         target: '',
         icon: 'tabler:download',
       },
-      {
-        text: 'primary',
-        text: 'EXCHANGE',
-        href: '/exchange',
-        target: '',
-        icon: 'tabler:exchange',
-      },
-      {
-        text: 'primary',
-        text: 'Wallets',
-        href: '/startstaking',
-        target: '',
-        icon: 'tabler:wallet',
-      },
+      { text: 'EXCHANGE', href: '/exchange' },
     ]}
-    image={{ src: '', alt: '' }}
-    <script src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.7.1/dist/dotlottie-wc.js" type="module"></script>
-<dotlottie-wc src="https://lottie.host/c05f5c7f-d299-4d85-b176-68c12295801b/eANBYvtfhR.lottie" speed="0.5" style="width: 100%; height: 400px" mode="forward" loop autoplay></dotlottie-wc>
+    image={{ src: '~/assets/images/hero-image.png', alt: 'AstroWind Hero Image' }}
   >
     <Fragment slot="title">
       <script defer src="https://www.livecoinwatch.com/static/lcw-widget.js"></script> <div class="livecoinwatch-widget-5" lcw-base="USD" lcw-color-tx="#0693e3" lcw-marquee-1="coins" lcw-marquee-2="movers" lcw-marquee-items="30" ></div>
@@ -59,10 +44,10 @@ const metadata = {
 
     <Fragment slot="subtitle">
       <span class="hidden sm:inline">
-        <span class="font-semibold">  PoS networks use validators who create, </span> propose, or vote on blocks added to the blockchain.</span
+        <span class="font-semibold"> We provide   </span> enterprise-grade, secure,</span
       >
       <span class="block mb-1 sm:hidden font-bold text-blue-600">high availability non-custodial staking.</span>
-    From the customer point of view, Staking is similar to interest savings account in a traditional bank. In DeFi, infrastructure service providers such as staking pools and Staking-as-a-Service providers play the role of the bank, running nodes for decentralized PoS protocols on behalf of investors.
+     Driven by passion and resilience, we validate with integrity and optimize staking for a decentralized future.
     </Fragment>
   </Hero>
 
