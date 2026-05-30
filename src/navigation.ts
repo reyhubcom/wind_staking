@@ -114,13 +114,8 @@ export const headerData = {
       text: 'Widgets',
       href: '#',
     },
-  {
-        text: 'primary',
-        text: 'EXCHANGE',
-        href: '/exchange',
-        target: '',
-        icon: 'tabler:exchange',
-      },
+  ],
+  actions: [{ text: 'Wallet', href: 'https://github.com/arthelokyo/', target: '_blank' }],
 };
 
 export const footerData = {
