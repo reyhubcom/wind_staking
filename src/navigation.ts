@@ -115,7 +115,8 @@ export const headerData = {
       href: '#',
     },
   ],
-  actions: [{ text: 'Wallet', href: 'https://github.com/arthelokyo/', target: '_blank' }],
+  actions: [{ text: 'Stake.NOW', href: 'https://github.com/arthelokyo/', target: '_blank' }],
+  icon:' tabler: link',
 };
 
 export const footerData = {
