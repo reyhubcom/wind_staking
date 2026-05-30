@@ -115,7 +115,7 @@ export const headerData = {
       href: '#',
     },
   ],
-  actions: [{ text: 'Stake.NOW', href: 'https://github.com/arthelokyo/', target: '_blank' }],
+  actions: [{ text: 'Stake.NOW', href: '/starstaking', target: '' }],
   icon:' tabler: link',
 };
 
